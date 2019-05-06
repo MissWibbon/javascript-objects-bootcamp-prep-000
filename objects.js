@@ -1,7 +1,10 @@
 var playlist = new Object({keys: 0})
  
 var updatePlaylist(playlist, artistName, songTitle){
-  playlist =
+  playlist[artistName] = songTitle
+  return playlist
 }
 
-var removeFromPlaylist(playlist, artistName) = {}
+var removeFromPlaylist(playlist, artistName) = {
+  delete 
+}
