@@ -5,7 +5,7 @@ var updatePlaylist(playlist, artistName, songTitle){
   return playlist
 }
 
-var removeFromPlaylist(playlist, artistName) = {
+var removeFromPlaylist(playlist, artistName){
   delete playlist[artistName]
   return playlist
 }
